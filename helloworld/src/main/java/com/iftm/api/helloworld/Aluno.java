@@ -41,4 +41,13 @@ public class Aluno {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", age=" + age +
+                ", date=" + date +
+                '}';
+    }
 }
